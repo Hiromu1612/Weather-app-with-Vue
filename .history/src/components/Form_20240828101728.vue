@@ -16,7 +16,7 @@
 
     const submitForm = () => {
         emits("submit-form", city.value) //londonではなく、ユーザーが入力した都市名を渡す
-        city.value = ""
+        city.value = 
     }
 </script>
 
